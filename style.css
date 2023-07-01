@@ -258,11 +258,12 @@ section {
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 300px;
+        width: 100%;
         height: 40vh;
         background: #4d9559;
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
         padding: 50px 20px;
         transition: all .55s ease;
@@ -284,3 +285,407 @@ section {
         height: auto;
     }
 }
+
+@media (max-width: 414px) {
+
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+        font-size: 20px;
+        
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 30px;
+        font-size: 30px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        padding: 10px 20px;
+        justify-content: center;
+        transition: all .55s ease;
+    }
+
+    .hero-img img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 412px) {
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 15px 0;
+        font-size: 18px;
+        
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 30px;
+        font-size: 30px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        padding: 10px 20px;
+        justify-content: center;
+        transition: all .55s ease;
+    }
+
+    .hero-img img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 393px) {
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 15px 0;
+        font-size: 18px;
+        
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 30px;
+        font-size: 30px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        padding: 7px 15px;
+        justify-content: center;
+        transition: all .55s ease;
+    }
+
+    .hero-img img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 15px 0;
+        font-size: 18px;
+        
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 30px;
+        font-size: 30px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        padding: 7px 15px;
+        justify-content: center;
+        transition: all .55s ease;
+    }
+
+    .hero-img img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+        margin: 0 0 10px;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 10px;
+        font-size: 20px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        padding: 5px 12px;
+        justify-content: center;
+        transition: all .55s ease;
+    }
+
+    .hero-img img {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 15px 0;
+        font-size: 18px;
+        
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 30px;
+        font-size: 30px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        padding: 5px 10px;
+        justify-content: center;
+        transition: all .55s ease;
+    }
+
+    .hero-img img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 280px) {
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 15px 0;
+        font-size: 14px;
+        
+    }
+    .navlist.open {
+        right: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .hero-text p {
+        margin: 10px;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .hero-text p.pregunta {
+        margin-top: 30px;
+        font-size: 20px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-text a {
+        display: flex;
+        flex-direction: row;
+        padding: 5px 5px;
+        align-items: center;
+        justify-content: center;
+        transition: all .55s ease;
+        margin-bottom: 10px;
+    }
+
+    .hero-text a.ctaa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
